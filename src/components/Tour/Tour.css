@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #fff !important;
+  color: #222 !important;
+}
+
+.tour {
+  color: #222;
+  background: #ececec;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+}
+
+.tour img {
+  width: 100%;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  display: block;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container:hover .close-btn {
+  opacity: 1;
+}
+
+.tour-info {
+  padding: 1rem 0.5rem;
+}
+
+.tour-info h3 {
+  text-transform: uppercase;
+  color: #82b340;
+}
+
+.tour-info h4 {
+  text-transform: capitalize;
+  color: #222;
+  margin: 0.2rem 0 0.6rem;
+}
+
+.tour-info h5 {
+  text-transform: capitalize;
+}
+
+.tour-info h5 span {
+  color: #82b340;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.tour-info .fa-caret-down {
+  width: 1em;
+  height: 1em;
+  background: #82b340;
+  color: #fff;
+  text-align: center;
+  line-height: 1em;
+  border-radius: 2px;
+}
+
+.close-btn {
+  position: absolute;
+  display: block;
+  top: 5%;
+  right: 5%;
+  color: #82b340;
+  font-size: 2rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+/*# sourceMappingURL=Tour.css.map */
